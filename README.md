@@ -67,7 +67,6 @@ src/main/java/com/concursoai/
 ```bash
 ./gradlew quarkusDev
 ```
-*Acesse o Swagger UI em: http://localhost:8080/swagger-ui*
 
 ### Build Nativo (Opcional - Extrema Performance)
 ```bash
