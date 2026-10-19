@@ -126,4 +126,3 @@ docker compose up -d
 Este projeto é parte dos meus estudos de backend moderno e preparação para concursos. Sinta-se livre para explorar, forkar ou abrir issues com sugestões.
 
 **Licença:** MIT © 2026 Carlos Eduardo Meireles Leão
-```
