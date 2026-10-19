@@ -123,6 +123,6 @@ docker compose up -d
 
 ## 🤝 Contribuição & Licença
 
-Este projeto é parte dos meus estudos de backend moderno e preparação para concursos. Sinta-se livre para explorar, forkar ou abrir issues com sugestões.
+Este projeto é parte dos meus estudos de backend moderno e preparação para concursos. Sinta-se livre para explorar, forkar ou abrir issues.
 
-**Licença:** MIT © 2026 Carlos Eduardo Meireles Leão
+**Licença:** MIT © 2026 Carlos Eduardo Leão
