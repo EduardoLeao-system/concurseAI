@@ -76,6 +76,28 @@ src/main/java/com/concursoai/
 | **API** | RESTEasy Reactive + Jackson | Contratos tipados e validação automática |
 | **Docs** | SmallRye OpenAPI | Swagger UI vivo e sempre atualizado |
 
+## ️ Frontend Integrado
+
+Este backend foi desenvolvido em conjunto com uma aplicação React otimizada para estudo ativo. A integração segue contrato API-first definido via OpenAPI/Swagger.
+
+| Aspecto | Detalhe Técnico |
+| :--- | :--- |
+| **Framework** | React 18 + Vite + TypeScript |
+| **Estilização** | TailwindCSS + Headless UI (acessível e leve) |
+| **Estado Global** | Context API + React Hook Form (zero Redux) |
+| **HTTP Client** | Axios com interceptors para tratamento de erros SM-2 |
+| **Roteamento** | React Router DOM v6 (SPA pura, sem SSR) |
+
+### Integração Backend-Frontend
+
+-   **CORS Configurado:** `%dev.quarkus.http.cors.origins=http://localhost:5173`
+-   **Proxy Vite:** Desenvolvimento local sem problemas de CORS (`vite.config.ts`)
+-   **Tipagem Compartilhada:** DTOs do Quarkus espelham interfaces TypeScript do frontend
+-   **Health Check:** Endpoint `/q/health` monitorado pelo frontend para feedback de conectividade
+
+> **Dica de Dev:** O frontend usa HMR instantâneo via Vite enquanto o backend roda em `quarkusDev`. Alterações em ambos refletem em <100ms durante desenvolvimento.
+
+
 ## ✅ Funcionalidades Atuais
 
 -   [x] CRUD completo de Flashcards com validação Bean Validation
