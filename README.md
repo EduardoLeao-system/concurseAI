@@ -80,7 +80,7 @@ Este backend foi desenvolvido em conjunto com uma aplicação React otimizada pa
 | **Estilização** | TailwindCSS + Headless UI (acessível e leve) |
 | **Estado Global** | Context API + React Hook Form (zero Redux) |
 | **HTTP Client** | Axios com interceptors para tratamento de erros SM-2 |
-| **Repositório** | [concurso-ai-frontend](https://github.com/EduardoLeao-system/concurso-ai-frontend) |
+
 
 ### 🔗 Integração Backend-Frontend
 - **CORS Configurado:** `%dev.quarkus.http.cors.origins=http://localhost:5173`
