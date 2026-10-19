@@ -1,0 +1,35 @@
+# Dependências e build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs e temporários
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+
+# Editores e SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ferramentas de IA
+.claude
+.gemini
+.opencode
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.tar.gz
