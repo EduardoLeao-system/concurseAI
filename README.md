@@ -30,11 +30,12 @@ graph LR
         F[GeminiAiAdapter] -.->|Implementa| C
     end
     
-    style A fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
-    style B fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style C fill:#fce4ec,stroke:#c2185b,stroke-width:2px,stroke-dasharray: 5 5
-    style D fill:#eceff1,stroke:#455a64,stroke-width:2px
-    style E,F fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style A fill:#BBDEFB,stroke:#0D47A1,stroke-width:2px,color:#000
+    style B fill:#FFE0B2,stroke:#E65100,stroke-width:2px,color:#000
+    style C fill:#F8BBD0,stroke:#880E4F,stroke-width:2px,color:#000,stroke-dasharray: 5 5
+    style D fill:#CFD8DC,stroke:#37474F,stroke-width:2px,color:#000
+    style E fill:#C8E6C9,stroke:#1B5E20,stroke-width:2px,color:#000
+    style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:2px,color:#000
 ```
 
 ### Por Que Esta Combinação?
