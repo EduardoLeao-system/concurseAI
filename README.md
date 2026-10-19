@@ -102,8 +102,6 @@ docker compose up -d
 ```bash
 ./gradlew quarkusDev
 ```
- **Swagger UI:** http://localhost:8080/swagger-ui  
-📊 **Health Check:** http://localhost:8080/q/health
 
 ### 3. Build Nativo (Opcional)
 ```bash
